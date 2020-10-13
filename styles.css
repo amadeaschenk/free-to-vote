@@ -14,10 +14,32 @@ body {
 
   }
 img{
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+#logo{
   max-width: 250px;
   display: block;
   margin: 20px auto;
 }
+nav{
+    display: grid;
+    /* Change previous grid */
+    grid-auto-flow: column;
+    grid-gap: 2%;
+    padding:2% auto;
+}
+
+nav a{
+    margin: 10px auto;
+    text-decoration: none;
+    color: #322311;
+    font-weight: normal;
+    font-size: 30%;
+
+}
+
 
 
 h2 {
@@ -36,6 +58,33 @@ h2 {
 
 }
 
+h3{
+  text-align: center;
+  font-size: 100%;
+  color: #faf8ed;
+
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 90%;
+     /* CHANGED COLORS bellow */
+     background: #faf8ed;
+     border: 1px solid #faf8ed;
+
+     /* Rounded corners */
+     border-radius: 4px;
+
+     /* Text color */
+     color:#322311;
+     margin-top: 3%;
+     margin-bottom: 3%;
+     padding:2% 4%;
+     font-size: 1.2em;
+     font-family: futura;
+   }
+
 main {
   background-color: #79b8d2;
   padding: 1% 0;
@@ -44,12 +93,18 @@ section {
   width: 90%;
   margin: 10px auto;
 }
+
+.sectionimage{
+  width: 90%;
+  margin: 10px auto;
+}
+
 .center{
     display: block;
     margin: 0 auto;
     width:100%;
 }
-.video {
+.video{
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
@@ -64,15 +119,36 @@ section {
   height: 100%;
 }
 
+p{
+  text-align: center;
+  margin: 2% auto;
+  font-weight: lighter;
+  color: #faf8ed;
+
+}
+a:link{
+  color: #322311;
+}
+a:visited{
+  #322311
+}
 
 footer{
-    text-align: center;
-    background-color: #b1cbbb;
-    padding:20px 0;
-    margin: 0;
+  display: block;
+  width: 100%;
+  padding: 2% 0;
+  margin-top: 0;
+  text-align: center;
+  font-size: 100%;
+  height: 20px;
+  background-color: #8a5d3b;
+  color: #faf8ed;
+  border-width: 0px;
+
 }
-footer p {
-  width: 80%;
+footer p{
+  width: 100%;
+  margin: auto;
 }
 footer a{
     color:#194035;
@@ -92,6 +168,22 @@ footer a{
         content:"";
     }
     .video {
-      width: 95%;
+      width: 90%;
     }
+    button{
+      font-size: 2.5em;
+    }
+    .volunteerbutton{
+      font-size: 1em;
+
+
+    }
+    .sectionimage{
+      margin: 3%;
+      width: 45%;
+    }
+    h3{
+      font-size: 200%;
+    }
+
 }
