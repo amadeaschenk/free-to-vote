@@ -128,9 +128,11 @@ p{
 }
 a:link{
   color: #322311;
+  text-decoration: none;
 }
 a:visited{
-  #322311
+color: #8a5d3b;
+text-decoration: none;
 }
 
 footer{
