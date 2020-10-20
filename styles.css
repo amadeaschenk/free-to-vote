@@ -146,9 +146,14 @@ footer{
   background-color: #8a5d3b;
   color: #faf8ed;
   border-width: 0px;
-  
 
 }
+
+
+
+
+}
+
 footer p{
   width: 100%;
   margin: auto;
@@ -157,6 +162,7 @@ footer a{
     color:#194035;
     text-decoration: none;
 }
+
 
 @media only screen and (min-width:700px){
     /* ---- Desktop styles below ---- */
